@@ -1,0 +1,20 @@
+﻿<Window x:Class="BallSimulation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BallSimulation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="850">
+    <Grid >
+        <Canvas Name="DrawingCanvas" Width="700" Height="400" Margin="10,10,90,24" >
+            <!-- <Ellipse Name="Ellipse_Ball1" Width="30" Height="30" 
+                     Canvas.Left="40" Canvas.Top="60" Fill="#FFAF2B2B" ></Ellipse>-->
+        </Canvas>
+        <Button Name="BtnReset" Height="30" Width="50" Margin="600,394,10,10" Content="Reset" 
+        Click="Reset_Click" />
+        
+        <Button Name="BtnStart" Height="30" Width="50" Margin="740,394,10,10" Content="Start" 
+                Click="Start_Click" />
+    </Grid>
+</Window>
