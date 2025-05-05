@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FirstApp
 {
+<<<<<<< HEAD
     internal class Person : IComparable
+=======
+    internal class Person
+>>>>>>> 8e6617f796cd5f84299663d386e44c22c0487a75
     {
         private string name;
         public String Surname { get; private set; }
@@ -44,6 +48,7 @@ namespace FirstApp
         {
             return yearOfBirth;
         }
+<<<<<<< HEAD
 
         public int CompareTo(object? obj)
         {
@@ -51,5 +56,7 @@ namespace FirstApp
             Person p2 = (Person) obj;
             return this.yearOfBirth - p2.yearOfBirth; 
         }
+=======
+>>>>>>> 8e6617f796cd5f84299663d386e44c22c0487a75
     }
 }

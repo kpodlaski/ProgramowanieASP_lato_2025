@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FirstApp
 {
+<<<<<<< HEAD
     internal class Student : Person, IApplicant
+=======
+    internal class Student : Person
+>>>>>>> 8e6617f796cd5f84299663d386e44c22c0487a75
     {
         public String StudentID { get; set; }
 
@@ -33,10 +37,13 @@ namespace FirstApp
         {
             return HashCode.Combine(Surname, GetName(), yearOfBirth, StudentID);
         }
+<<<<<<< HEAD
 
         public void ApplyTo()
         {
             throw new NotImplementedException();
         }
+=======
+>>>>>>> 8e6617f796cd5f84299663d386e44c22c0487a75
     }
 }

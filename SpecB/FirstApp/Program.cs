@@ -41,7 +41,10 @@
             //Person[] persons = new Person[3];
             //persons[0] = p; persons[1] = p2;persons[2] = s;
             List<Person> persons = new List<Person>();
+<<<<<<< HEAD
             
+=======
+>>>>>>> 8e6617f796cd5f84299663d386e44c22c0487a75
             persons.Add(p); persons.Add(p2); persons.Add(s);
             foreach (Person pp in persons)
             {
@@ -58,6 +61,7 @@
             }
             Console.WriteLine(set.Count);
 
+<<<<<<< HEAD
             Dictionary<String, Student> dict = new Dictionary<String, Student>();
             dict[s.StudentID] = s;
             s = new Student("a1234", "Janina", "Janińska", 2000);
@@ -85,6 +89,8 @@
             PersonComparer pc = new PersonComparer();
             persons.Sort(pc.BySurname());
             
+=======
+>>>>>>> 8e6617f796cd5f84299663d386e44c22c0487a75
         }
     }
 }
